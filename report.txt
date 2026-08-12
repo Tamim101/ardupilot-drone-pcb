@@ -1,0 +1,1 @@
+Error: Change symbol U14 from 'MCU_ST_STM32H7:STM32H753VITx' to 'STM32H753VIT6:STM32H753VITX': *** symbol not found ***

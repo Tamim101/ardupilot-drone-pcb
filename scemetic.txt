@@ -1,0 +1,8 @@
+Plotted to '/home/tamim-khan/pcb/ESP32_project/Flight_Controller_PCB/OLL.E fpv_pcb/OLL.E fpv_pcb.pdf'.
+
+Info: Done.
+Plotted to '/home/tamim-khan/pcb/ESP32_project/Flight_Controller_PCB/OLL.E fpv_pcb/OLL.E fpv_pcb.svg'.
+Plotted to '/home/tamim-khan/pcb/ESP32_project/Flight_Controller_PCB/OLL.E fpv_pcb/OLL.E fpv_pcb-motor sheet.svg'.
+Info: Done.
+Info: Done.
+Info: Done.
