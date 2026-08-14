@@ -986,6 +986,292 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x05_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x05_Pin"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x05, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x05_Pin_1_1"
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Crystal"
 			(pin_numbers
 				(hide yes)
@@ -5613,6 +5899,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_Elektuur:C"
 			(pin_numbers
 				(hide yes)
@@ -8960,6 +9329,16 @@
 		)
 		(uuid "78ba1f7f-e656-4b4f-a322-83a5e87f050a")
 	)
+	(text "MP2315GJ"
+		(exclude_from_sim no)
+		(at 59.182 96.774 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "896980c2-3cd2-460f-b6d4-5e15dcff0279")
+	)
 	(text "DECOUPLING "
 		(exclude_from_sim no)
 		(at 279.146 18.288 0)
@@ -8969,6 +9348,16 @@
 			)
 		)
 		(uuid "a5a61b22-d040-46de-ace4-3afa3e9c3b1f")
+	)
+	(text "MP2315GJ"
+		(exclude_from_sim no)
+		(at 101.346 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b4215806-5b29-4d6a-8d62-160f69c40796")
 	)
 	(text "VADC = VBAT × (Rbottom / (Rtop + Rbottom))\n     = 8.7 × (10k / (22k + 10k))\n     = 2.72 V but Range is 3.3v 2.72 is safe value\n"
 		(exclude_from_sim no)
@@ -9441,6 +9830,12 @@
 		(uuid "9f232655-72cd-4b29-9562-ca24701211d8")
 	)
 	(junction
+		(at 170.18 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a24cc330-939a-4050-8489-4b31938efdb9")
+	)
+	(junction
 		(at 147.32 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9621,18 +10016,6 @@
 		(uuid "e20c4f00-a687-41d2-8990-eb789b64d3d7")
 	)
 	(junction
-		(at 170.18 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3afb874-1cec-48c8-93fd-95b028a775cc")
-	)
-	(junction
-		(at 170.18 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3bb9f3e-e79c-473b-afc5-0e4ce0949ca4")
-	)
-	(junction
 		(at 262.89 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9703,6 +10086,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb790680-59ff-4179-a251-9b28699352fc")
+	)
+	(junction
+		(at 170.18 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc78f9a3-f81a-4e32-b11f-4762ba3a1ca8")
 	)
 	(no_connect
 		(at 370.84 168.91)
@@ -9977,6 +10366,16 @@
 			(type default)
 		)
 		(uuid "018ad860-5370-4e7c-a972-b9d33c5c0515")
+	)
+	(wire
+		(pts
+			(xy 170.18 166.37) (xy 181.61 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03830ea2-3d99-4964-8357-36065724188d")
 	)
 	(wire
 		(pts
@@ -10680,16 +11079,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 176.53) (xy 170.18 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dee33b2-b507-4e3f-ba0c-94b5d550520d")
-	)
-	(wire
-		(pts
 			(xy 316.23 207.01) (xy 316.23 208.28)
 		)
 		(stroke
@@ -10877,6 +11266,16 @@
 			(type default)
 		)
 		(uuid "34e04949-8fbe-42f3-bed4-82750f677792")
+	)
+	(wire
+		(pts
+			(xy 161.29 176.53) (xy 170.18 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f266a6-5d67-495d-8008-7c7acb684a70")
 	)
 	(wire
 		(pts
@@ -11850,16 +12249,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 176.53) (xy 181.61 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "766da664-95ff-4bf3-85eb-2653b3d875cf")
-	)
-	(wire
-		(pts
 			(xy 262.89 140.97) (xy 262.89 139.7)
 		)
 		(stroke
@@ -12147,6 +12536,16 @@
 			(type default)
 		)
 		(uuid "89eb7ebb-a2ef-4652-9c78-3be491a565c5")
+	)
+	(wire
+		(pts
+			(xy 170.18 176.53) (xy 181.61 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a4728f1-034d-4a9c-9e67-fbee6599cf26")
 	)
 	(wire
 		(pts
@@ -12957,16 +13356,6 @@
 			(type default)
 		)
 		(uuid "b7bb0677-0916-409c-adf8-1ed981487877")
-	)
-	(wire
-		(pts
-			(xy 170.18 166.37) (xy 181.61 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9939433-f085-40f5-869f-3f913934e079")
 	)
 	(wire
 		(pts
@@ -14256,6 +14645,28 @@
 			)
 		)
 	)
+	(global_label "NRST"
+		(shape bidirectional)
+		(at 209.55 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f959dad-079b-44b7-a6a4-b640adabc21e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.55 22.8759 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GYRO_CS"
 		(shape output)
 		(at 372.11 57.15 0)
@@ -15356,6 +15767,28 @@
 			)
 		)
 	)
+	(global_label "+5V_FC"
+		(shape input)
+		(at 30.48 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9549a81-27cb-4c99-bf01-51eefeaf3a97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.2981 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+3V3_IMU"
 		(shape input)
 		(at 132.08 120.65 90)
@@ -15752,28 +16185,6 @@
 			)
 		)
 	)
-	(global_label "+VBAT"
-		(shape input)
-		(at 30.48 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f8c63e6c-0e92-47ea-af14-fab76a630748")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.5076 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SWDIO"
 		(shape bidirectional)
 		(at 372.11 80.01 0)
@@ -16085,7 +16496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 288.29 25.4 0)
 			(effects
 				(font
@@ -16174,7 +16585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 309.88 201.93 0)
 			(effects
 				(font
@@ -16681,7 +17092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c49b98b-0030-4dfd-97d4-7ab464917fdd")
-		(property "Reference" "C1bulk2"
+		(property "Reference" "C45"
 			(at 278.13 124.4599 0)
 			(effects
 				(font
@@ -16699,7 +17110,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 274.32 125.73 0)
 			(effects
 				(font
@@ -16754,7 +17165,7 @@
 		(instances
 			(project "OLL.E fpv_pcb"
 				(path "/7062ecae-ed82-47dc-bd4a-f40d8cc668c3"
-					(reference "C1bulk2")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -16858,7 +17269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e972155-81de-4ffd-ac8c-77bccfd3b1cf")
-		(property "Reference" "C1bulk3"
+		(property "Reference" "C46"
 			(at 285.75 124.4599 0)
 			(effects
 				(font
@@ -16876,7 +17287,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 281.94 125.73 0)
 			(effects
 				(font
@@ -16931,7 +17342,7 @@
 		(instances
 			(project "OLL.E fpv_pcb"
 				(path "/7062ecae-ed82-47dc-bd4a-f40d8cc668c3"
-					(reference "C1bulk3")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -16962,7 +17373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 274.32 254 0)
 			(effects
 				(font
@@ -17050,7 +17461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 69.85 245.11 0)
 			(effects
 				(font
@@ -17184,6 +17595,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 215.9 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "168c388e-f76d-40e6-a207-7be0d5ea4caf")
+		(property "Reference" "H1"
+			(at 218.44 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 218.44 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 215.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 215.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OLL.E fpv_pcb"
+				(path "/7062ecae-ed82-47dc-bd4a-f40d8cc668c3"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 72.39 162.56 90)
 		(unit 1)
@@ -17275,7 +17750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 21.59 93.98 0)
 			(effects
 				(font
@@ -17363,7 +17838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.64 48.26 0)
 			(effects
 				(font
@@ -17818,7 +18293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:Jumper_Harwin_S1621_P10.9mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 378.46 27.94 0)
 			(effects
 				(font
@@ -18124,7 +18599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
 			(at 207.01 269.24 0)
 			(effects
 				(font
@@ -18992,7 +19467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 			(at 308.61 64.77 0)
 			(effects
 				(font
@@ -19275,7 +19750,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 232.41 92.71 0)
 			(effects
 				(font
@@ -19363,7 +19838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 302.26 36.83 0)
 			(effects
 				(font
@@ -19425,6 +19900,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 214.63 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53885f83-01bb-4e0a-87c6-fdd91a5a5945")
+		(property "Reference" "J10"
+			(at 214.63 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05_Pin"
+			(at 214.63 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical"
+			(at 214.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 214.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "346e4398-287e-43dc-afee-5534c6a743a5")
+		)
+		(pin "4"
+			(uuid "673c1e86-8fb1-4556-a988-995807a2a023")
+		)
+		(pin "3"
+			(uuid "0cdb4023-a824-4d9e-969c-28380b060eee")
+		)
+		(pin "2"
+			(uuid "ccda485d-24b8-4a12-ab4d-d52d24569506")
+		)
+		(pin "5"
+			(uuid "d015a96c-6087-4338-b148-9b2c4395753e")
+		)
+		(instances
+			(project "OLL.E fpv_pcb"
+				(path "/7062ecae-ed82-47dc-bd4a-f40d8cc668c3"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 128.27 128.27 0)
 		(unit 1)
@@ -19452,7 +20004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 128.27 128.27 0)
 			(effects
 				(font
@@ -19846,7 +20398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 106.68 99.06 0)
 			(effects
 				(font
@@ -19934,7 +20486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 280.67 53.34 0)
 			(effects
 				(font
@@ -20089,7 +20641,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 53.34 157.48 0)
 			(effects
 				(font
@@ -20245,7 +20797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 300.99 72.39 0)
 			(effects
 				(font
@@ -20332,7 +20884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 297.18 204.47 0)
 			(effects
 				(font
@@ -20421,7 +20973,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 104.14 44.45 0)
 			(effects
 				(font
@@ -20663,7 +21215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 181.61 171.45 0)
 			(effects
 				(font
@@ -20750,7 +21302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 154.94 166.37 0)
 			(effects
 				(font
@@ -20952,7 +21504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 278.13 67.31 0)
 			(effects
 				(font
@@ -21039,7 +21591,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
 			(at 215.9 52.07 0)
 			(effects
 				(font
@@ -21247,7 +21799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 119.38 99.06 0)
 			(effects
 				(font
@@ -21548,80 +22100,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 214.63 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7cf8b677-5ae4-4f68-9679-290f20fb7f42")
-		(property "Reference" "J1"
-			(at 207.01 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC"
-			(at 209.55 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 214.63 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 214.63 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0049cc70-89e7-4276-9e9c-64d4fba9710d")
-		)
-		(pin "3"
-			(uuid "4950cd3f-c656-4785-8cfc-dc7663ec6b7d")
-		)
-		(pin "1"
-			(uuid "e47ab16c-939a-4e0b-b896-1cf6695594d2")
-		)
-		(pin "4"
-			(uuid "8e0a286b-8c45-47ed-a97a-03acb7f6fcad")
-		)
-		(instances
-			(project "OLL.E fpv_pcb"
-				(path "/7062ecae-ed82-47dc-bd4a-f40d8cc668c3"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 59.69 234.95 0)
 		(unit 1)
@@ -21649,7 +22127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 59.69 234.95 0)
 			(effects
 				(font
@@ -21771,6 +22249,70 @@
 			(project "OLL.E fpv_pcb"
 				(path "/7062ecae-ed82-47dc-bd4a-f40d8cc668c3"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 237.49 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81eeb0c9-c8b7-450f-a8f8-e6d3d59cb4e9")
+		(property "Reference" "H2"
+			(at 240.03 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 240.03 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 237.49 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 237.49 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OLL.E fpv_pcb"
+				(path "/7062ecae-ed82-47dc-bd4a-f40d8cc668c3"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -22111,7 +22653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 45.72 234.95 0)
 			(effects
 				(font
@@ -22349,7 +22891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 290.83 257.81 0)
 			(effects
 				(font
@@ -22501,7 +23043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 280.67 248.92 0)
 			(effects
 				(font
@@ -22896,7 +23438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 27.94 111.76 0)
 			(effects
 				(font
@@ -22985,7 +23527,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 321.31 201.93 0)
 			(effects
 				(font
@@ -23074,7 +23616,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 219.71 92.71 0)
 			(effects
 				(font
@@ -23288,7 +23830,7 @@
 	)
 	(symbol
 		(lib_id "SS54FSH:SS54FSH")
-		(at 170.18 171.45 90)
+		(at 170.18 171.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23302,7 +23844,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SS54FSH"
@@ -23311,7 +23853,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
@@ -23425,7 +23967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 34.29 93.98 0)
 			(effects
 				(font
@@ -23645,7 +24187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 267.97 25.4 0)
 			(effects
 				(font
@@ -23799,7 +24341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 294.64 25.4 0)
 			(effects
 				(font
@@ -24068,7 +24610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b415149d-df2f-4187-9398-c446966d4f87")
-		(property "Reference" "ferritebead2"
+		(property "Reference" "fb2"
 			(at 278.13 46.9391 0)
 			(effects
 				(font
@@ -24122,7 +24664,7 @@
 		(instances
 			(project "OLL.E fpv_pcb"
 				(path "/7062ecae-ed82-47dc-bd4a-f40d8cc668c3"
-					(reference "ferritebead2")
+					(reference "fb2")
 					(unit 1)
 				)
 			)
@@ -24525,7 +25067,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 210.82 87.63 0)
 			(effects
 				(font
@@ -24671,7 +25213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 115.57 128.27 0)
 			(effects
 				(font
@@ -24968,7 +25510,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 66.802 155.194 0)
+			(at 67.818 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24976,7 +25518,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 64.77 162.56 0)
 			(effects
 				(font
@@ -25045,10 +25587,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cede6770-7ad2-4c73-9f0e-d7e5dd323ee1")
 		(property "Reference" "U1"
-			(at 58.42 83.82 0)
+			(at 59.182 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25253,7 +25794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 148.59 233.68 0)
 			(effects
 				(font
@@ -25408,7 +25949,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 123.19 223.52 0)
 			(effects
 				(font
@@ -25536,6 +26077,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 283.21 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd0adf13-3dc8-4101-8dc0-d72beb72b073")
+		(property "Reference" "H4"
+			(at 285.75 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 285.75 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 283.21 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 283.21 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 283.21 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OLL.E fpv_pcb"
+				(path "/7062ecae-ed82-47dc-bd4a-f40d8cc668c3"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Driver_FET:UCC27511ADBV")
 		(at 59.69 175.26 0)
 		(unit 1)
@@ -25644,7 +26249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 281.94 25.4 0)
 			(effects
 				(font
@@ -25731,7 +26336,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 81.28 88.9 0)
 			(effects
 				(font
@@ -25873,6 +26478,70 @@
 			(project "OLL.E fpv_pcb"
 				(path "/7062ecae-ed82-47dc-bd4a-f40d8cc668c3"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 261.62 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e59f9847-4872-4895-be8d-8acfb7d16bf4")
+		(property "Reference" "H3"
+			(at 264.16 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 264.16 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 261.62 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 261.62 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OLL.E fpv_pcb"
+				(path "/7062ecae-ed82-47dc-bd4a-f40d8cc668c3"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -26058,7 +26727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 161.29 233.68 0)
 			(effects
 				(font
@@ -26750,7 +27419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 312.42 72.39 0)
 			(effects
 				(font
@@ -26969,7 +27638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 274.32 25.4 0)
 			(effects
 				(font
