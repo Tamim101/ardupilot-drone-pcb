@@ -2820,156 +2820,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start -1.524 1.27)
-					(mid 0 1.778)
-					(end 1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LTST-C190EKT:LTST-C190EKT"
 			(pin_numbers
 				(hide yes)
@@ -8139,6 +7989,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPST"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TYPE-C-31-M-12:TYPE-C-31-M-12"
 			(pin_names
 				(offset 1.016)
@@ -9609,6 +9595,12 @@
 		(uuid "1d35502b-9bd0-4e6a-a278-ebdbed863f6f")
 	)
 	(junction
+		(at 394.97 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e36450c-7d89-419e-aefc-b1d0d122c4cd")
+	)
+	(junction
 		(at 288.29 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9825,12 +9817,6 @@
 		(uuid "82e3b1d6-d2b3-4c8c-a1dc-836e69c29f40")
 	)
 	(junction
-		(at 389.89 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8427f21d-dc61-4fb6-9036-02c0b5676594")
-	)
-	(junction
 		(at 274.32 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10015,6 +10001,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1720a3b-c91a-49e9-b47e-f665cbbadde3")
+	)
+	(junction
+		(at 316.23 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3534f69-639f-49a7-9893-17138f4a0fce")
 	)
 	(junction
 		(at 290.83 204.47)
@@ -10752,7 +10744,7 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 27.94) (xy 397.51 27.94)
+			(xy 389.89 27.94) (xy 394.97 27.94)
 		)
 		(stroke
 			(width 0)
@@ -10879,6 +10871,16 @@
 			(type default)
 		)
 		(uuid "18b9797a-ec44-4f0f-ba87-b0e99cccb5fb")
+	)
+	(wire
+		(pts
+			(xy 316.23 39.37) (xy 316.23 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ee0aa0-837c-45cd-845f-5d499e0e9cac")
 	)
 	(wire
 		(pts
@@ -11572,6 +11574,16 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 27.94) (xy 397.51 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e99315a-ac78-495e-bdfa-335a89f3efe4")
+	)
+	(wire
+		(pts
 			(xy 370.84 59.69) (xy 382.27 59.69)
 		)
 		(stroke
@@ -11729,6 +11741,16 @@
 			(type default)
 		)
 		(uuid "49cc199c-c888-459f-929f-f7f3d9efcdac")
+	)
+	(wire
+		(pts
+			(xy 386.08 25.4) (xy 394.97 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49cff474-ed04-4138-85fc-8d7da05b4774")
 	)
 	(wire
 		(pts
@@ -11932,7 +11954,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 36.83) (xy 316.23 46.99)
+			(xy 316.23 36.83) (xy 316.23 39.37)
 		)
 		(stroke
 			(width 0)
@@ -12019,6 +12041,16 @@
 			(type default)
 		)
 		(uuid "5ed13dba-69bf-4da0-817a-f6a44a1e7625")
+	)
+	(wire
+		(pts
+			(xy 383.54 27.94) (xy 386.08 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "600b2176-f5ae-4742-b7c8-f7eab2bc817d")
 	)
 	(wire
 		(pts
@@ -13252,6 +13284,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 27.94) (xy 386.08 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e41e4c-ef11-4510-a750-8f7c09fd31e8")
+	)
+	(wire
+		(pts
 			(xy 283.21 250.19) (xy 283.21 251.46)
 		)
 		(stroke
@@ -13809,16 +13851,6 @@
 			(type default)
 		)
 		(uuid "c7a4bc0f-f308-4e51-a478-b95be8259b05")
-	)
-	(wire
-		(pts
-			(xy 383.54 27.94) (xy 389.89 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c80e0ff6-44c2-4f5e-91a3-f5bb84a764de")
 	)
 	(wire
 		(pts
@@ -14449,6 +14481,16 @@
 			(type default)
 		)
 		(uuid "f49aa5dc-e0e3-4cbc-82cf-99506e303bab")
+	)
+	(wire
+		(pts
+			(xy 394.97 25.4) (xy 394.97 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4d05720-196c-4c30-906f-db08bc37bf94")
 	)
 	(wire
 		(pts
@@ -18767,74 +18809,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 378.46 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30355088-cb2b-4d9f-a622-94e45ea1d74b")
-		(property "Reference" "JP1"
-			(at 378.46 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 378.46 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 378.46 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 378.46 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 378.46 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "041e1066-e8b1-4e42-9446-732c01d81ecf")
-		)
-		(pin "2"
-			(uuid "1d344fe3-fb9e-45b3-9d05-6acc6c8bb2f1")
-		)
-		(instances
-			(project "OLL.E fpv_pcb"
-				(path "/7062ecae-ed82-47dc-bd4a-f40d8cc668c3"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 58.42 121.92 0)
 		(unit 1)
@@ -19497,6 +19471,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 326.39 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41a273ef-011b-4b58-98a0-6fa202e53263")
+		(property "Reference" "#PWR016"
+			(at 326.39 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 326.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 326.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2ff31ae-36e9-4f78-8b85-dc8b3f996e3a")
+		)
+		(instances
+			(project "OLL.E fpv_pcb"
+				(path "/7062ecae-ed82-47dc-bd4a-f40d8cc668c3"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 257.81 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19555,6 +19595,74 @@
 			(project "OLL.E fpv_pcb"
 				(path "/7062ecae-ed82-47dc-bd4a-f40d8cc668c3"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 321.31 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "451b200e-14f3-4eb2-a989-cb95f1f963a9")
+		(property "Reference" "SW2"
+			(at 321.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 321.31 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
+			(at 321.31 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 321.31 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 321.31 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b98e13c-fe78-40fc-b5b2-4a6520760ef7")
+		)
+		(pin "2"
+			(uuid "9a593edb-bc24-4bf5-a413-3bb4dc613418")
+		)
+		(instances
+			(project "OLL.E fpv_pcb"
+				(path "/7062ecae-ed82-47dc-bd4a-f40d8cc668c3"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -20021,6 +20129,74 @@
 			(project "OLL.E fpv_pcb"
 				(path "/7062ecae-ed82-47dc-bd4a-f40d8cc668c3"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 378.46 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b22e789-ed00-4057-b110-a937d5ff7aa3")
+		(property "Reference" "SW1"
+			(at 378.46 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 378.46 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
+			(at 378.46 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 378.46 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb380ad1-0b54-4966-bf52-a7b8c50b4751")
+		)
+		(pin "2"
+			(uuid "3d208de9-d9a3-44d1-93d7-df8f0776ab0c")
+		)
+		(instances
+			(project "OLL.E fpv_pcb"
+				(path "/7062ecae-ed82-47dc-bd4a-f40d8cc668c3"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -22600,7 +22776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Card:microSD_HC_Wuerth_693072010801"
+		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3D-SF"
 			(at 7.62 48.26 0)
 			(effects
 				(font
