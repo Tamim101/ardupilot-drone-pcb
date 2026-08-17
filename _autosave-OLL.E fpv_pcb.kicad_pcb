@@ -13627,7 +13627,6 @@
 			(size 2.5 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1388888889)
-			(net 3 "+VBAT")
 			(uuid "2b955434-829d-488d-88f0-6a22fb72cbb7")
 		)
 		(pad "2" smd roundrect
@@ -29550,6 +29549,14 @@
 		(uuid "45d42687-fc18-43d3-a285-68abfe6f5af4")
 	)
 	(segment
+		(start 232.8 70.7)
+		(end 232.8 74.1)
+		(width 1)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "480c4ebd-7af6-4829-a322-4dcd012dec63")
+	)
+	(segment
 		(start 212.7 59.3625)
 		(end 213.65 59.3625)
 		(width 0.3)
@@ -29740,6 +29747,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "7f75cad5-d931-46dc-8ec6-5646ffd2cf1c")
+	)
+	(segment
+		(start 232.8 74.1)
+		(end 233.4 74.7)
+		(width 1)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "868b74e9-7ab3-4ac6-a633-ff39dbc5ef6f")
 	)
 	(segment
 		(start 242 64.1)
