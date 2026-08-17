@@ -9523,6 +9523,12 @@
 		(uuid "0e26d17d-477b-4e73-ae40-434ac9a44806")
 	)
 	(junction
+		(at 170.18 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f12f0e1-af3c-4a7a-bde3-74c4f9025c65")
+	)
+	(junction
 		(at 266.7 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9551,12 +9557,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15470031-caa8-46ca-b8df-00f113a3b029")
-	)
-	(junction
-		(at 170.18 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15c90db4-4cc6-48f7-b78a-d1b92fd85c36")
 	)
 	(junction
 		(at 83.82 33.02)
@@ -10045,12 +10045,6 @@
 		(uuid "d2fcf373-81e3-4a6b-9702-5ee9e53a775e")
 	)
 	(junction
-		(at 170.18 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d351dbae-4f2b-4cee-a7b0-399d420c3d77")
-	)
-	(junction
 		(at 306.07 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10187,6 +10181,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb790680-59ff-4179-a251-9b28699352fc")
+	)
+	(junction
+		(at 170.18 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbdcd52e-2698-4a80-b64e-0e46d07a7f67")
 	)
 	(no_connect
 		(at 370.84 168.91)
@@ -11304,6 +11304,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 166.37) (xy 181.61 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ccd56f-ca23-4911-90bf-329fd214b5e3")
+	)
+	(wire
+		(pts
 			(xy 62.23 20.32) (xy 64.77 20.32)
 		)
 		(stroke
@@ -11621,6 +11631,16 @@
 			(type default)
 		)
 		(uuid "41baa519-1306-4348-bde6-6805ae774b83")
+	)
+	(wire
+		(pts
+			(xy 170.18 176.53) (xy 181.61 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c5b0cb-2508-4677-bd70-6647adc859de")
 	)
 	(wire
 		(pts
@@ -12441,16 +12461,6 @@
 			(type default)
 		)
 		(uuid "78086d7b-51f3-46e9-ac84-0eebcbf9d737")
-	)
-	(wire
-		(pts
-			(xy 170.18 166.37) (xy 181.61 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78231435-424c-4764-8ad9-034d26701db8")
 	)
 	(wire
 		(pts
@@ -13411,16 +13421,6 @@
 			(type default)
 		)
 		(uuid "ab97690d-f812-4d59-b141-fea6aa7c5d71")
-	)
-	(wire
-		(pts
-			(xy 170.18 176.53) (xy 181.61 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac5a4a96-1c92-4457-a236-fbaa7eab508c")
 	)
 	(wire
 		(pts
@@ -24590,7 +24590,7 @@
 	)
 	(symbol
 		(lib_id "SS54FSH:SS54FSH")
-		(at 170.18 171.45 270)
+		(at 170.18 171.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24604,7 +24604,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "SS54FSH"
@@ -24613,7 +24613,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
