@@ -10291,6 +10291,12 @@
 		(uuid "7b95543b-8a74-4c65-9108-c916b39c752e")
 	)
 	(junction
+		(at 66.04 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dfb1264-b77b-4243-ac50-82dfcd3e9d25")
+	)
+	(junction
 		(at 306.07 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11556,6 +11562,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 232.41) (xy 73.66 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ec40a6-3a8a-4312-bc61-684ad5c550c6")
+	)
+	(wire
+		(pts
 			(xy 27.94 102.87) (xy 41.91 102.87)
 		)
 		(stroke
@@ -12196,6 +12212,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 232.41) (xy 68.58 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ab16d8-ac3c-4a05-a6d5-4045a81f7708")
+	)
+	(wire
+		(pts
 			(xy 53.34 162.56) (xy 59.69 162.56)
 		)
 		(stroke
@@ -12626,16 +12652,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 228.6) (xy 85.09 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e8fcdfb-add7-47e3-acce-5807f6d6e8a7")
-	)
-	(wire
-		(pts
 			(xy 212.09 266.7) (xy 215.9 266.7)
 		)
 		(stroke
@@ -12923,6 +12939,16 @@
 			(type default)
 		)
 		(uuid "6e446c0d-39bc-4f10-96a5-2e801fb95f08")
+	)
+	(wire
+		(pts
+			(xy 73.66 228.6) (xy 85.09 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e4bb359-77ae-4f29-abde-67d0efb27b2e")
 	)
 	(wire
 		(pts
@@ -13396,16 +13422,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 228.6) (xy 57.15 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "870012a4-f38f-4b52-9fea-1adf2b8c7f64")
-	)
-	(wire
-		(pts
 			(xy 266.7 157.48) (xy 266.7 147.32)
 		)
 		(stroke
@@ -13546,7 +13562,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 223.52) (xy 85.09 223.52)
+			(xy 45.72 223.52) (xy 66.04 223.52)
 		)
 		(stroke
 			(width 0)
@@ -13946,7 +13962,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 238.76) (xy 45.72 238.76)
+			(xy 50.8 238.76) (xy 45.72 238.76)
 		)
 		(stroke
 			(width 0)
@@ -14296,6 +14312,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 237.49) (xy 50.8 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb2804b2-17e6-48d9-9098-fbf2e1a060f4")
+	)
+	(wire
+		(pts
 			(xy 283.21 229.87) (xy 306.07 229.87)
 		)
 		(stroke
@@ -14566,6 +14592,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 232.41) (xy 68.58 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d7c099-b2d9-429e-9d44-f3f7d2936bc8")
+	)
+	(wire
+		(pts
 			(xy 231.14 104.14) (xy 231.14 102.87)
 		)
 		(stroke
@@ -14613,6 +14649,16 @@
 			(type default)
 		)
 		(uuid "cb8d6bf4-e767-43aa-b28b-4804077fffed")
+	)
+	(wire
+		(pts
+			(xy 66.04 223.52) (xy 85.09 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbb2a1c3-5d5e-49ab-a4fc-1b23e72263dd")
 	)
 	(wire
 		(pts
@@ -14853,6 +14899,16 @@
 			(type default)
 		)
 		(uuid "da44fbaa-2146-4e03-b73d-4da00234161e")
+	)
+	(wire
+		(pts
+			(xy 68.58 237.49) (xy 50.8 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbf27900-c753-4436-b869-e303fe488f37")
 	)
 	(wire
 		(pts
@@ -19524,6 +19580,94 @@
 			(project "OLL.E fpv_pcb"
 				(path "/7062ecae-ed82-47dc-bd4a-f40d8cc668c3"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Elektuur:C")
+		(at 66.04 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2de525a9-c891-4091-9f4b-168d9de1d4f7")
+		(property "Reference" "C15"
+			(at 58.928 227.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 58.928 230.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 66.04 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, non-polarized/bipolar"
+			(at 66.04 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Indicator" "+"
+			(at 64.77 225.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "V"
+			(at 65.405 231.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47a4fc7b-f921-4bdf-a45e-839970a32158")
+		)
+		(pin "2"
+			(uuid "cb3206b3-a884-4545-b70f-58e1e944a677")
+		)
+		(instances
+			(project "OLL.E fpv_pcb"
+				(path "/7062ecae-ed82-47dc-bd4a-f40d8cc668c3"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -25573,6 +25717,72 @@
 			(project "OLL.E fpv_pcb"
 				(path "/7062ecae-ed82-47dc-bd4a-f40d8cc668c3"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a50aace5-5ef2-4a0a-b93a-1484a6427eb4")
+		(property "Reference" "#PWR055"
+			(at 66.04 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e28682ee-832c-4f2b-9fe9-93d08a7b82b6")
+		)
+		(instances
+			(project "OLL.E fpv_pcb"
+				(path "/7062ecae-ed82-47dc-bd4a-f40d8cc668c3"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
