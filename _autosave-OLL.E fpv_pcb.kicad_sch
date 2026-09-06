@@ -11362,6 +11362,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 223.52) (xy 115.57 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "187dfb30-1a66-4932-a6af-b34722aef335")
+	)
+	(wire
+		(pts
 			(xy 219.71 30.48) (xy 222.25 30.48)
 		)
 		(stroke
@@ -11502,16 +11512,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 223.52) (xy 125.73 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f665ede-c172-418e-8e54-68bdedf7eda5")
-	)
-	(wire
-		(pts
 			(xy 158.75 128.27) (xy 161.29 128.27)
 		)
 		(stroke
@@ -11602,7 +11602,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 92.71) (xy 82.55 92.71)
+			(xy 104.14 92.71) (xy 82.55 92.71)
 		)
 		(stroke
 			(width 0)
@@ -11702,7 +11702,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 88.9) (xy 74.93 88.9)
+			(xy 77.47 87.63) (xy 81.28 87.63)
 		)
 		(stroke
 			(width 0)
@@ -12529,6 +12529,16 @@
 			(type default)
 		)
 		(uuid "56da4ee2-c892-4352-82de-cf0f0c74cbc6")
+	)
+	(wire
+		(pts
+			(xy 77.47 87.63) (xy 77.47 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57eabdcc-bd65-42eb-b448-9fc3f0178794")
 	)
 	(wire
 		(pts
@@ -13532,16 +13542,6 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 121.92) (xy 393.7 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ee0d42a-50a8-446d-b0fc-e5d491a7dd7e")
-	)
-	(wire
-		(pts
 			(xy 165.1 228.6) (xy 172.72 228.6)
 		)
 		(stroke
@@ -14012,6 +14012,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 87.63) (xy 93.98 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7daf88c-4860-4f57-bdda-ceb86f6a16a6")
+	)
+	(wire
+		(pts
 			(xy 386.08 27.94) (xy 386.08 25.4)
 		)
 		(stroke
@@ -14329,6 +14339,16 @@
 			(type default)
 		)
 		(uuid "bb2804b2-17e6-48d9-9098-fbf2e1a060f4")
+	)
+	(wire
+		(pts
+			(xy 77.47 88.9) (xy 73.66 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb36a4de-3702-4d1a-aa53-6e68e66176eb")
 	)
 	(wire
 		(pts
@@ -14992,7 +15012,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 88.9) (xy 95.25 92.71)
+			(xy 104.14 87.63) (xy 104.14 92.71)
 		)
 		(stroke
 			(width 0)
@@ -20260,7 +20280,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 90.17 88.9 90)
+		(at 99.06 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20269,7 +20289,7 @@
 		(fields_autoplaced yes)
 		(uuid "31bbce4e-c6b6-4996-9227-7240b2eb6672")
 		(property "Reference" "R38"
-			(at 90.17 82.55 90)
+			(at 99.06 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20277,7 +20297,7 @@
 			)
 		)
 		(property "Value" "20 ohm"
-			(at 90.17 85.09 90)
+			(at 99.06 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20285,7 +20305,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 90.17 88.9 0)
+			(at 99.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20294,7 +20314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 88.9 0)
+			(at 99.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20303,7 +20323,7 @@
 			)
 		)
 		(property "Description" "resistor"
-			(at 90.17 88.9 0)
+			(at 99.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20312,7 +20332,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 86.995 92.075 0)
+			(at 95.885 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20321,7 +20341,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 93.345 86.36 0)
+			(at 102.235 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28448,7 +28468,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:C")
-		(at 120.65 223.52 90)
+		(at 121.92 223.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28457,7 +28477,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8e42bec-1dfe-46b2-9086-4038d62f0718")
 		(property "Reference" "C18"
-			(at 120.65 217.17 90)
+			(at 121.92 217.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28465,7 +28485,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 120.65 219.71 90)
+			(at 121.92 219.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28473,7 +28493,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 120.65 223.52 0)
+			(at 121.92 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28482,7 +28502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 223.52 0)
+			(at 121.92 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28491,7 +28511,7 @@
 			)
 		)
 		(property "Description" "capacitor, non-polarized/bipolar"
-			(at 120.65 223.52 0)
+			(at 121.92 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28500,7 +28520,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 117.475 224.79 0)
+			(at 118.745 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28509,7 +28529,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 123.825 224.155 0)
+			(at 125.095 224.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29139,7 +29159,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:C")
-		(at 80.01 88.9 90)
+		(at 86.36 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29148,7 +29168,7 @@
 		(fields_autoplaced yes)
 		(uuid "e22ad9e0-1712-4546-9c2b-84469ab3586b")
 		(property "Reference" "C9"
-			(at 80.01 82.55 90)
+			(at 86.36 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29156,7 +29176,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 80.01 85.09 90)
+			(at 86.36 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29164,7 +29184,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 80.01 88.9 0)
+			(at 86.36 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29173,7 +29193,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 88.9 0)
+			(at 86.36 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29182,7 +29202,7 @@
 			)
 		)
 		(property "Description" "capacitor, non-polarized/bipolar"
-			(at 80.01 88.9 0)
+			(at 86.36 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29191,7 +29211,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 76.835 90.17 0)
+			(at 83.185 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29200,7 +29220,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 83.185 89.535 0)
+			(at 89.535 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
